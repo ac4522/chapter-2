@@ -5,3 +5,6 @@ build-backend = "hatchling.build"
 [project]
 name = "math_utils"
 version = "0.1" 
+
+[tool.hatch.build.targets.wheel]
+packages = ["math_utils"]
